@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B6978F0-7FC0-4791-A3A7-D6FA3E2683E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ge2d", "src\ge2d\ge2d.csproj", "{3F21F01D-07B8-46FA-8F4C-A2312FC5DF9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3F4CD5E8-DB53-4488-B275-2C51E1D7B9C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ge2d.Tests", "tests\ge2d.Tests\ge2d.Tests.csproj", "{40F0A26C-6F87-4E0A-B07B-3409823BC81E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F21F01D-07B8-46FA-8F4C-A2312FC5DF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F21F01D-07B8-46FA-8F4C-A2312FC5DF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F21F01D-07B8-46FA-8F4C-A2312FC5DF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F21F01D-07B8-46FA-8F4C-A2312FC5DF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F0A26C-6F87-4E0A-B07B-3409823BC81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F0A26C-6F87-4E0A-B07B-3409823BC81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F0A26C-6F87-4E0A-B07B-3409823BC81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F0A26C-6F87-4E0A-B07B-3409823BC81E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F21F01D-07B8-46FA-8F4C-A2312FC5DF9D} = {8B6978F0-7FC0-4791-A3A7-D6FA3E2683E0}
+		{40F0A26C-6F87-4E0A-B07B-3409823BC81E} = {3F4CD5E8-DB53-4488-B275-2C51E1D7B9C8}
+	EndGlobalSection
+EndGlobal
