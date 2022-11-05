@@ -6,9 +6,6 @@
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
     <UseWindowsForms>true</UseWindowsForms>
-
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-
   </PropertyGroup>
 
   <PropertyGroup>
