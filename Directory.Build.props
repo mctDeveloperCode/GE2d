@@ -3,7 +3,7 @@
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 
-    <BaseOutputPath>$(MSBuildThisFileDirectory)/out/bin/$(MSBuildProjectName)</BaseOutputPath>
-    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)/out/obj/$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)/out/$(MSBuildProjectName)/bin</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)/out/$(MSBuildProjectName)/obj</BaseIntermediateOutputPath>
   </PropertyGroup>
 </Project>
