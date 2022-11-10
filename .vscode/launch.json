@@ -8,7 +8,7 @@
             "name": "Debug RunAbout",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "build-runabout",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/out/RunAbout/bin/Debug/net6.0-windows/RunAbout.dll",
             "args": [],
