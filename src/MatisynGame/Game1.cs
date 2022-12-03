@@ -93,6 +93,7 @@ public class Game1 : Game
         graphics["House"] = Content.Load<Texture2D>("House");
         graphics["HouseyHousey"] = Content.Load<Texture2D>("HouseyHousey");
         graphics["AmongUsRainbow"] = Content.Load<Texture2D>("AmongUsRainbow");
+        graphics["LulusHouse"] = Content.Load<Texture2D>("LulusHouse");
     }
 
     private bool IsShifted() =>
@@ -131,6 +132,9 @@ public class Game1 : Game
 
             if (Keyboard.GetState().IsKeyDown(Keys.D7) && IsShifted())
                 descriptors[active].graphic = graphics["HouseyHousey"];
+
+            if (Keyboard.GetState().IsKeyDown(Keys.D8) && IsShifted())
+                descriptors[active].graphic = graphics["LulusHouse"];
         }
 
         if (Keyboard.GetState().IsKeyDown(Keys.D0) && !IsShifted())
